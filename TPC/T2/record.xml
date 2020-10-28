@@ -18,13 +18,12 @@
         </person>
     </workteam>
     <abstract>
-        <paragraph>
-            <text></text>
-        </paragraph>
+        <paragraph>Serve o presente trabalho para demonstrar o uso dos <bold>DTD</bold> na criação de ficheiros <italic><underline>XML</underline></italic> <underline>bem estruturados</underline>.</paragraph>
+        <paragraph>O exemplo em que nos baseamos para criar o <bold>DTD</bold> está representado na <link href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/Project%20Record.htm">seguinte página</link>.</paragraph>
     </abstract>
     <deliverables>
-        <link href="">Ficheiro DTD</link>
-        <link href="">Ficheiro XML</link>
+        <link href="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T2/record.dtd">Ficheiro DTD</link>
+        <link href="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T2/record.xml">Ficheiro XML</link>
     </deliverables>
     <date>28-10-2020</date>
 </record>

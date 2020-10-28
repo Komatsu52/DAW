@@ -22,8 +22,7 @@
 <!ELEMENT email (#PCDATA) >
 
 <!ELEMENT abstract (paragraph+) >
-<!ELEMENT paragraph (text+) >
-<!ELEMENT text (#PCDATA|bold|italic|underline|link)* >
+<!ELEMENT paragraph (#PCDATA|bold|italic|underline|link)* >
 <!ELEMENT bold (#PCDATA|italic|underline)* >
 <!ELEMENT italic (#PCDATA|bold|underline)* >
 <!ELEMENT underline (#PCDATA|bold|italic)* >
