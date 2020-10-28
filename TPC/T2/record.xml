@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "file:/home/goncalo/%C3%81rea%20de%20Trabalho/4%C2%BAAno/Complementares/DAW2020/TPC/T2/record.dtd">
+<record>
+    <projectname>TPC2</projectname>
+    <header>
+        <keyname>Relatório do TPC2</keyname>
+        <title>DTDs</title>
+        <subtitle>Segundo TPC de DAW</subtitle>
+        <begindate>25-10-2020</begindate>
+        <enddate>28-10-2020</enddate>
+        <supervisor href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <person>
+            <number>a85731</number>
+            <name href="https://github.com/Komatsu52">Gonçalo José Azevedo Esteves</name>
+            <email>a85731@alunos.uminho.pt</email>
+        </person>
+    </workteam>
+    <abstract>
+        <paragraph>
+            <text></text>
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <link href="">Ficheiro DTD</link>
+        <link href="">Ficheiro XML</link>
+    </deliverables>
+    <date>28-10-2020</date>
+</record>
