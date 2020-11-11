@@ -146,10 +146,4 @@
         </xsl:result-document>
     </xsl:template>
     
-    <xsl:template match="LIGA">
-        <span style="color:red;">
-            <u><xsl:value-of select="."/></u>
-        </span>
-    </xsl:template>
-    
 </xsl:stylesheet>
