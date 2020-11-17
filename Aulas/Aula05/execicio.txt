@@ -1,0 +1,7 @@
+db2.json
+
+Obter todas as publicações com autor Miguel Ferreira:
+http://localhost:3000/pubs?authors_like=MIguel%20Ferreira
+
+Obter as publicacoes ordenadas por ordem descendente de ano e crescente de titulo
+http://localhost:3000/pubs?_sort=year,title&_order=desc,asc
