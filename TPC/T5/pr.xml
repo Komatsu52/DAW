@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>Website relativo a uma Escola de Música</title>
+        <subtitle>Trabalho de Casa nº5 de DAW</subtitle>
+        <bdate>11-11-2020</bdate>
+        <edate>17-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a85731">
+            <name>Gonçalo José Azevedo Esteves</name>
+            <email>gjaesteves@gmail.com</email>
+            <link url="https://github.com/Komatsu52/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+        <p>Tendo em vista o desenvolvimento do quinto trabalho de casa proposto para a Unidade Curricular de Desenvolvimento de Aplicações Web,
+           foi elaborado um servidor NodeJS que, recolhendo a informação contida no <i>dataset</i> fornecido pelo docente,
+           apresenta a mesma de forma organizada e simples.</p>
+        <p>Com isto em vista, é necessário, primeiramente, disponibilizar o <i>dataset</i> num servidor JSON, por forma a que o servidor NodeJS por nós criado aceda diretamente
+           ao mesmo, de modo a obter as informações de que necessita. Após isto, é desenvolvido o servidor NodeJS, que disponibiliza três diferentes listas (alunos, cursos e instrumentos),
+           sendo que cada uma delas apresenta os id's relativos aos respetivos objetos. Ao selecionar um id, somos remetidos para as informações desse objeto.
+           Em todas as páginas é nos disponibilizada também a opção de regressar à página anterior (lista associada a cada objeto).</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T5/tpc5.js">Servidor NodeJS</link>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T5/db.json">Dataset</link>
+    </deliverables>
+</pr>
