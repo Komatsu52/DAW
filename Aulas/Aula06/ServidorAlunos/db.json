@@ -1,0 +1,58 @@
+{
+  "alunos": [
+    {
+      "nome": "Fernando Pessoa Silva",
+      "id": "PG12345",
+      "curso": "Literatura Avançada",
+      "git": "http://github.com"
+    },
+    {
+      "nome": "Alves dos Reis",
+      "id": "PG23456",
+      "curso": "Literatura",
+      "git": ""
+    },
+    {
+      "nome": "Rui Espenheiro",
+      "id": "A66345",
+      "curso": "Obras Públicas",
+      "git": ""
+    },
+    {
+      "nome": "Clara Reis",
+      "id": "A71334",
+      "curso": "Filosofia",
+      "git": ""
+    },
+    {
+      "nome": "Alvaro dos Campos",
+      "id": "PG15234",
+      "curso": "Medicina",
+      "git": ""
+    },
+    {
+      "nome": "Josefa",
+      "id": "A71831",
+      "curso": "Empregado de Mesa",
+      "git": ""
+    },
+    {
+      "nome": "Ola",
+      "id": "adeus",
+      "curso": "merdas",
+      "git": ""
+    },
+    {
+      "nome": "Muy Bueno",
+      "id": "a6969",
+      "curso": "Tu sabes",
+      "git": ""
+    },
+    {
+      "nome": "Josefa Maria",
+      "id": "A71834",
+      "curso": "Empregado de Mesa",
+      "git": ""
+    }
+  ]
+}

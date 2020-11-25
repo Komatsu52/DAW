@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC6</key>
+        <title>Single Page Application para uma Lista de Tarefas</title>
+        <subtitle>Trabalho de Casa nº6 de DAW</subtitle>
+        <bdate>18-11-2020</bdate>
+        <edate>24-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a85731">
+            <name>Gonçalo José Azevedo Esteves</name>
+            <email>a85731@alunos.uminho.pt</email>
+            <link url="https://github.com/Komatsu52/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+        <p></p>
+        <p></p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T4/servidor.js">Servidor NodeJS</link>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T4/arq.xml">Ficheiro XML</link>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T4/arq.xsl">Ficheiro XSL</link>
+    </deliverables>
+</pr>
