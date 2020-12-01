@@ -26,9 +26,37 @@ router.get('/students/register', function(req, res, next) {
   	res.render('register')
 })
 
-router.post('/students', function(req, res) {
-	Student.insert(req.body)
-		.then(res.redirect("/students"))
+router.get('/students/edit/:id', function(req, res) {
+	Student.lookup(req.params.id)
+		.then(data => res.render('edit', { info: data }))
+		.catch(err => res.render('error', { error : err }))
+})
+
+router.get('/students/delete/:id', function(req, res) {
+	Student.delete(req.params.id)
+		.then(res.redirect('/students'))
+		.catch(err => res.render('error', { error : err }))
+})
+
+router.post('/students',function(req,res){
+  Student.exists(req.body.numero, function(err, student) {
+    if (err) {
+      next(err)
+    }
+    else if (student) {
+      res.redirect('/students')
+    }
+    else {
+      Student.insert(req.body)
+        .then(res.redirect('/students'))
+        .catch(err => res.render('error', {error: err}))
+    }
+  })
+})
+
+router.post('/students/:id', function(req, res) {
+	Student.edit(req.body, req.params.id)
+		.then(res.redirect("/students/" + req.params.id))
 		.catch(err => res.render('error', { error : err }))
 })
 

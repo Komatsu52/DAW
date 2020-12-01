@@ -57,5 +57,8 @@ block content
 				a(href='/students')
 					button.w3-button.w3-blue.w3-margin Back
 			adress.w3-right
-				a(href='/students')
+				a(href='/students/edit/' + info.numero)
 					button.w3-button.w3-blue.w3-margin Edit
+			adress.w3-right
+				a(href='/students/delete/' + info.numero)
+					button.w3-button.w3-blue.w3-margin Delete
