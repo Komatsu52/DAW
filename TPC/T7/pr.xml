@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC6</key>
+        <title>Single Page Application para uma Lista de Tarefas</title>
+        <subtitle>Trabalho de Casa nº6 de DAW</subtitle>
+        <bdate>18-11-2020</bdate>
+        <edate>24-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a85731">
+            <name>Gonçalo José Azevedo Esteves</name>
+            <email>a85731@alunos.uminho.pt</email>
+            <link url="https://github.com/Komatsu52/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+        <p>A realização deste trabalho de casa consistia na criação de um servidor <b>NodeJS</b>, que, a partir da consulta de um outro servidor <b>JSON</b>, disponibiliza uma <u>SPA</u> (<i>Single Page Application</i>), 
+        onde podemos consultar uma lista de tarefas realizadas e por realizar.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T6/server.js">Servidor NodeJS</link>
+    </deliverables>
+</pr>
