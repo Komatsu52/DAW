@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pr>
     <meta>
-        <key>TPC6</key>
-        <title>Single Page Application para uma Lista de Tarefas</title>
-        <subtitle>Trabalho de Casa nº6 de DAW</subtitle>
-        <bdate>18-11-2020</bdate>
-        <edate>24-11-2020</edate>
+        <key>TPC7</key>
+        <title>Desenvolvimento de uma Aplicação recorrendo a uma base de dados em MongoDB</title>
+        <subtitle>Trabalho de Casa nº7 de DAW</subtitle>
+        <bdate>25-11-2020</bdate>
+        <edate>02-12-2020</edate>
         <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
     </meta>
     <team>
@@ -16,10 +16,14 @@
         </member>
     </team>
     <abstract>
-        <p>A realização deste trabalho de casa consistia na criação de um servidor <b>NodeJS</b>, que, a partir da consulta de um outro servidor <b>JSON</b>, disponibiliza uma <u>SPA</u> (<i>Single Page Application</i>), 
-        onde podemos consultar uma lista de tarefas realizadas e por realizar.</p>
+    	<p>
+    		O objetivo deste trabalho de casa passou pela criação de uma aplicação <i>web</i> capaz de gerir informação relativa aos alunos de <b>DAW</b>. Tendo isto em vista, recorreu-se à ferramenta <b>Express</b> por forma a auxiliar na criação de uma <u>API</u> capaz de suportar as funcionalidades necessárias; e à criação de uma base de dados <b>Mongo</b>, onde foram guardados todos os dados obtidos.
+    	</p>
+    	<p>
+    		A aplicação desenvolvida permite a inserção e remoção de alunos, bem como a edição da informação dos mesmos.
+    	</p>
     </abstract>
     <deliverables>
-        <link url="https://github.com/Komatsu52/DAW2020/blob/main/TPC/T6/server.js">Servidor NodeJS</link>
+        <link url="https://github.com/Komatsu52/DAW2020/tree/main/TPC/T7/dawApp">Pasta com todos </link>
     </deliverables>
 </pr>
