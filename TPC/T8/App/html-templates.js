@@ -63,8 +63,9 @@ function fileForm(d){
         <head>
             <title>File Upload</title>
             <meta charset="utf-8"/>
-            <link rel="icon" href="/favicon.png"/>
             <link rel="stylesheet" href="/w3.css"/>
+            <script src="/jquery-3.5.1.min.js"></script>
+            <script src="/addsub.js"></script>
         </head>
         <body>
         
@@ -73,7 +74,8 @@ function fileForm(d){
                 <h2>File Upload</h2>
             </div>
 
-            <form class="w3-container" action="/files" method="POST" enctype="multipart/form-data">
+            <form class="w3-container" action="/files" method="POST" enctype="multipart/form-data" id="form">
+                <input class="w3-btn w3-blue-grey" type="submit" value="Submit"/>
                 <div class="w3-row w3-margin-bottom">
                     <div class="w3-col s3">
                         <label class="w3-text-teal"><b>Description</b></label>
@@ -90,8 +92,10 @@ function fileForm(d){
                         <input class="w3-input w3-border w3-light-grey" type="file" name="myFile">
                     </div>
                 </div>
-                <input class="w3-btn w3-blue-grey" type="submit" value="Submit"/>
             </form>
+            <div class="w3-container">
+              <button class="w3-btn w3-blue-grey" onclick="addSub()">Add File</button>
+            </div>
 
             <footer class="w3-container w3-teal">
                 <address>Gerado por galuno::DAW2020 em ${d}</address>

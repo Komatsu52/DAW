@@ -40,31 +40,32 @@ app.get('/files/download/:fname', (req, res) => {
 	res.download(__dirname + '/public/fileStore/' + req.params.fname)
 })
 
-app.post('/files', upload.single('myFile'), function(req, res){
+app.post('/files', upload.array('myFile', 12), function(req, res){
 	//req.file is the 'myFile' file
 	//req.body will hold the text fields if any
-	//multiple files: upload.array(...) => files is an array
+	
+	req.files.forEach(reqFile => {
+		let oldPath = __dirname + '/' + reqFile.path
+		let newPath = __dirname + '/public/fileStore/' + reqFile.originalname
 
-	let oldPath = __dirname + '/' + req.file.path
-	let newPath = __dirname + '/public/fileStore/' + req.file.originalname
-
-	fs.rename(oldPath, newPath, function(err){
-		if(err)
-			throw err
-		else{
-			var files = jsonfile.readFileSync('./dbFiles.json')
-			var d = new Date().toISOString().substr(0, 16)
-			files.push(
-				{
-					date: d,
-					name: req.file.originalname,
-					size: req.file.size,
-					mimetype: req.file.mimetype,
-					desc: req.body.desc
-				}
-			)
-			jsonfile.writeFileSync('./dbFiles.json', files)
-		}
+		fs.rename(oldPath, newPath, function(err){
+			if(err)
+				throw err
+			else{
+				var files = jsonfile.readFileSync('./dbFiles.json')
+				var d = new Date().toISOString().substr(0, 16)
+				files.push(
+					{
+						date: d,
+						name: reqFile.originalname,
+						size: reqFile.size,
+						mimetype: reqFile.mimetype,
+						desc: req.body.desc
+					}
+				)
+				jsonfile.writeFileSync('./dbFiles.json', files)
+			}
+		})
 	})
 
 	res.redirect('/')
