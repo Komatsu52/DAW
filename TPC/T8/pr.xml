@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC8</key>
+        <title>Criação de um formulário com múltipla inserção de ficheiros</title>
+        <subtitle>Trabalho de Casa nº8 de DAW</subtitle>
+        <bdate>02-12-2020</bdate>
+        <edate>09-12-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a85731">
+            <name>Gonçalo José Azevedo Esteves</name>
+            <email>a85731@alunos.uminho.pt</email>
+            <link url="https://github.com/Komatsu52/DAW2020"></link>
+        </member>
+    </team>
+    <abstract>
+    	<p>
+    		Neste último trabalho de casa, foi nos requisitado o desenvolvimento de uma aplicação que permitisse a inserção de diversos ficheiros, passíveis de poderem ser descarregados mais tarde. Para além disto, o formulário de inserção de ficheiros devia aceitar a inserção de um número variável destes.
+    	</p>
+    	<p>
+    		Tendo isto em vista, foi necessário fazer algumas alterações ao que fora produzido na última aula, permitindo que o formulário interaja de forma dinâmica, inserindo um novo formulário aquando da seleção do botão de inserção.
+    	</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/Komatsu52/DAW2020/tree/main/TPC/T8/App">Pasta com a aplicação desenvolvida</link>
+    </deliverables>
+</pr>
