@@ -74,27 +74,29 @@ function fileForm(d){
                 <h2>File Upload</h2>
             </div>
 
-            <form class="w3-container" action="/files" method="POST" enctype="multipart/form-data" id="form">
-                <input class="w3-btn w3-blue-grey" type="submit" value="Submit"/>
-                <div class="w3-row w3-margin-bottom">
-                    <div class="w3-col s3">
+            <div class="w3-container">
+              <form class="w3-container" action="/files" method="POST" enctype="multipart/form-data" id="form">
+                  <input class="w3-btn w3-blue-grey" type="submit" value="Submit"/>
+                  <div class="w3-row w3-margin-bottom">
+                      <div class="w3-col s3">
                         <label class="w3-text-teal"><b>Description</b></label>
-                    </div>
-                    <div class="w3-col s9 w3-border">
+                      </div>
+                      <div class="w3-col s9 w3-border">
                         <input class="w3-input w3-border w3-light-grey" type="text" name="desc">
-                    </div>
-                </div>
-                <div class="w3-row w3-margin-bottom">
+                      </div>
+                  </div>
+                  <div class="w3-row w3-margin-bottom">
                     <div class="w3-col s3">
                         <label class="w3-text-teal"><b>Select file</b></label>
                     </div>
                     <div class="w3-col s9 w3-border">
                         <input class="w3-input w3-border w3-light-grey" type="file" name="myFile">
                     </div>
-                </div>
-            </form>
-            <div class="w3-container">
-              <button class="w3-btn w3-blue-grey" onclick="addSub()">Add File</button>
+                  </div>
+              </form>
+              <div class="w3-row w3-margin-bottom">
+                <button class="w3-btn w3-blue-grey" onclick="addSub()">Add File</button>
+              </div>
             </div>
 
             <footer class="w3-container w3-teal">

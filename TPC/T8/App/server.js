@@ -43,6 +43,8 @@ app.get('/files/download/:fname', (req, res) => {
 app.post('/files', upload.array('myFile', 12), function(req, res){
 	//req.file is the 'myFile' file
 	//req.body will hold the text fields if any
+
+	var aux = 0
 	
 	req.files.forEach(reqFile => {
 		let oldPath = __dirname + '/' + reqFile.path
@@ -60,10 +62,11 @@ app.post('/files', upload.array('myFile', 12), function(req, res){
 						name: reqFile.originalname,
 						size: reqFile.size,
 						mimetype: reqFile.mimetype,
-						desc: req.body.desc
+						desc: req.body.desc[aux]
 					}
 				)
 				jsonfile.writeFileSync('./dbFiles.json', files)
+				aux = aux + 1
 			}
 		})
 	})
